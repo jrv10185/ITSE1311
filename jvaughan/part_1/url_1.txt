@@ -1,0 +1,11 @@
+http://
+127.0.0.1:5500/part_1/index_1.7.html
+?
+f_name=James
+&
+l_name=Vaughan
+&
+age=37
+&
+passowrd=mularkey
+#

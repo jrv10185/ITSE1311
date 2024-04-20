@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Author: James Vaughan
+Date: 11/07/2022 
+Assignment : indext 1.8b
+Topic: Input Range type-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Range Control</title>
+    <style>
+        input {font-size: 4em;
+                background-color: lightgrey;}
+        input[type="range"] {width : 50%;}
+    </style>
+    <script>
+        function updateRange(val){
+            document.getElementById("output").value=val;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Input Range Control
+            <hr>
+        </h1>
+    </header>
+    <br>
+    <input type="range" 
+           id="range_1" 
+           name="a_range" 
+           min="0" 
+           max="2000" 
+           step="37" 
+           value="200"
+           onchange = "updateRange(this.value);">
+    <br>
+    <br>
+    <input type="text" 
+           name="output" 
+           id="output" 
+           size="4" 
+           value=""
+           placeholder="output">
+</body>
+
+</html>

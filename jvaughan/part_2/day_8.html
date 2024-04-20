@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- # flexbox Froggy Example -->
+<!-- Name: James Vaughan      -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froggie Demo</title>
+    <style>
+        #pond{
+            background-color: aqua;
+            margin: 30px;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 2em;
+        }
+
+        .red {
+            background-color: pink;
+            order: 0;
+        }
+        .green {
+            background-color: lightgreen;
+        }
+        div div {
+            border: 1px solid black;
+            margin: 10px;
+            padding: 5px;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <div id="pond">
+       <div class = "red">A Frog</div>
+       <div class = "green">A Frog</div>
+       <div class = "green">A Frog</div>
+       <div class = "green">A Frog</div>
+    </div>
+</body>
+</html>

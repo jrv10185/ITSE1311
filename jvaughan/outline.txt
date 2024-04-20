@@ -1,0 +1,40 @@
+Landing Page
+    - click to enter?
+Index
+    - ABout Moki
+    - About Meeko
+    - Popular Toys
+    - Cat food
+    - Cleaning 
+    - Cat types
+About Moki
+    - videos / pictures
+    - DOB:
+    - markings
+    - personality
+    - favorites
+About Meeko
+    - videos / pictures
+    - DOB:
+    - markings
+    - personality
+    - favorites
+Popular Toys
+    - Tubes
+    - Towers
+    - String toys
+    - mice
+    - lights
+Cat food
+    - Location
+    - Wet
+    - Dry
+    - untraditional
+    - treats
+Cleaning
+    - How to wash a cat ( if they no longer can for themselves)
+    - Liter Boxes
+Cat Types
+
+
+

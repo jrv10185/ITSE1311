@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Name: James Vaughan
+    Course: ITSE-1311.900
+    Date 10/21/2022
+    Assignment: part 1.7 
+    Topic: Form Tag 
+    CDN -- responsive design and + in selection-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        div {
+            font-size: 2em;
+        }
+
+        input {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Forms</h1>
+        <hr>
+    </header>
+    <h2>Detailed Form Example</h2>
+    <!-- Start of Form  -->
+    <div>
+        <form action="#" method="GET" name="inputForm" id="inputForm">
+            <fieldset>
+                <legend>Personal Data</legend>
+                <label for="f_name">First Name:</label>
+                <input type="text" id="f_name" name="f_name" placeholder="First Name?"><br>
+                <label for="l_name">Last Name:</label>
+                <input type="text" id="l_name" name="l_name" placeholder="Last Name?"><br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age"><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password"><br>
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset Form">
+                <!-- <input type="button" value="Submit Button" form="inputForm" disabled> -->
+                <!-- <button></button> -->
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
